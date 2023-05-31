@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Registration Form</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="flex-container">
+    <h1>Registration Form</h1>
+    <p>Created By Akash Gupta</p>
+    <form id="form">
+      <div>
+        <label for="fname">First name:</label>
+        <input type="text" name="first-name" id="First Name " placeholder="Enter Your First Name">
+      </div>
+      <div>
+        <label for="fname">Last name:</label>
+        <input type="text" id="Last Name " name="last-name" placeholder="Enter Your  Last Name">
+      </div>
+      <div>
+        <label for="Gender">Select Gender:</label>
+        <select id="Gender" name="gender">
+          <option value="">Select</option>
+          <option value="M">Male</option>
+          <option value="F">Female</option>
+        </select>
+      </div>
+
+      <div>
+      <label for="Course">Select Course:</label>
+      <select id="Course" name="course-name">
+        <option value="">Choose Course</option>
+        <option value="Web Developement">Web Developement</option>
+        <option value="Android Developement">Android Developement</option>
+        <option value="UI/UX">UI/UX</option>
+        <option value="Digital Marketing">Digital Marketing</option>
+      </select>
+    </div>
+
+      <div>
+        <label for="mobile">Mobile No:</label>
+        <input type="text" name="mobile-number" id="Mobile Number " placeholder="Enter Your Mobile No">
+      </div>
+      <div>
+        <label for="email">Email:</label>
+      <input type="text" name="email" id="Email " placeholder="Enter Your Email">
+      </div>
+
+      <div>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password " placeholder="Create Custom"> <br>
+      </div>
+      <button id="submit-btn" type="button">Sign Up</button>
+    </form>
+  </div>
+  <div class="tabel">
+    <table id="user-table">
+      <caption> <b>Registration Details</b></caption>
+      <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Gender</th>
+        <th>Course</th>
+        <th>Email</th>
+        <th>Mobile No</th>
+        <th>Password</th>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>      
+    </table>
+  </div>
+  <script src="custom.js"></script>
+</body>
+</html>
